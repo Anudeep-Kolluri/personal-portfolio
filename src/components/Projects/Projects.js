@@ -25,8 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Thumbnail Impact"
+              // title="ETL on YouTube Thumbnails for Correlation Between Objects and Viewership Using Machine Learning"
+              description="ETL on YouTube metadata and thumbnails to find correlation between objects in image and views of the video using Machine Learning. Used Dagster for workflow orchestration, DBT for transformations, Duckdb for data storage, Streamlit for dashboard and Vision models for object detection"
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
