@@ -27,9 +27,12 @@ function Home2() {
               <br />
               <br />
               From automating deployments to fine-tuning performance, every skill in my toolkit serves a purpose: transforming raw data into impactful solutions.
+              <br />
+              <br />
+              <br />
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" style={{ marginTop: "60px" }}>
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
