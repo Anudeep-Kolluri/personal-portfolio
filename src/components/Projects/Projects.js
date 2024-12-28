@@ -2,12 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import yt_etl from "../../Assets/Projects/youtube_etl_dashboard.png"
+import y_comb from "../../Assets/Projects/y_comb.webp"
+import s_rev from "../../Assets/Projects/spec_review.png"
+import m_ser from "../../Assets/Projects/milvus_search.png"
+import s_mar from "../../Assets/Projects/stock_market.jpeg"
+import c_vae from "../../Assets/Projects/vae.gif"
+
+
+
+
+
 
 function Projects() {
   return (
@@ -23,71 +28,75 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={yt_etl}
               isBlog={false}
-              title="Thumbnail Impact"
+              title="ETL on YouTube Thumbnails"
               // title="ETL on YouTube Thumbnails for Correlation Between Objects and Viewership Using Machine Learning"
               description="ETL on YouTube metadata and thumbnails to find correlation between objects in image and views of the video using Machine Learning. Used Dagster for workflow orchestration, DBT for transformations, Duckdb for data storage, Streamlit for dashboard and Vision models for object detection"
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/Anudeep-Kolluri/youtube-dashboard"
+              demoLink="https://kolluri-youtube-dashboard.streamlit.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={m_ser}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Semantic Search Engine"
+              description="A retrieval engine built using Milvus, designed to efficiently handle large-scale data and enable rapid, accurate searches across vast datasets. It leverages vector similarity search for applications such as recommendation systems, image recognition, and natural language processing."
+              ghLink="https://github.com/Anudeep-Kolluri/search-engine-using-milvus"
+              demoLink="https://retrieval-engine-milvus.streamlit.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={c_vae}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Face Generation using VAE"
+              description="Built a Variational Autoencoder (VAE) from scratch to generate human faces based on CelebA dataset, leveraging a Tkinter GUI for dynamic interaction and visualization. The whole VAE is built on just 2 latent dimensions."
+              ghLink="https://github.com/Anudeep-Kolluri/Variational-Autoencoders"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={y_comb}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Analytics on Y Combinator website with Snowflake"
+              description="This project automates the scraping, processing, and ingestion of company data from the Y Combinator website into a data warehouse. The scraped data is cleaned and processed using DuckDB, then loaded into Snowflake. Once the data is ingested, dbt (data build tool) performs ELT (Extract, Load, Transform) operations to transform the raw data into analytics-ready tables. The entire data pipeline is orchestrated using Dagster."
+              ghLink="https://github.com/Anudeep-Kolluri/automated-company-scraper"
             />
           </Col>
 
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={s_rev}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Spec Review"
+              description="Given two items, provides an in-depth comparison using the LLM Agents, offering rich, detailed insights that highlight their similarities, differences, and unique features. This is highly beneficial for end users seeking a direct, apple to apple comparison when choosing tech products."
+              ghLink="https://github.com/Anudeep-Kolluri/spec-review"
+              demoLink="https://spec-review.streamlit.app/"             
             />
           </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={s_mar}
+              isBlog={false}
+              title="Multi Agent Stock Market Prediction"
+              description="Given a stock name, the project produces a detailed report of the stock considering factors like market trend, social media, risk assessment and gives an in depth investment advice."
+              ghLink="https://github.com/Anudeep-Kolluri/multi-agent-stock-market-prediction"
+              demoLink="https://agentic-stock-market-analysis.streamlit.app/"
+            />
+          </Col>
+
+
+
+
         </Row>
       </Container>
     </Container>

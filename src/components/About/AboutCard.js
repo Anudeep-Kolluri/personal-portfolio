@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -29,9 +29,9 @@ function AboutCard() {
           </ul> */}
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Debug your mindset, compile your strengths, and execute with resilience!"{" "}
+            "You don't have to see the whole staircase, just take the first step."{" "}
           </p>
-          <footer className="blockquote-footer">Anudeep Kolluri</footer>
+          <footer className="blockquote-footer">Martin Luther King Jr.</footer>
         </blockquote>
       </Card.Body>
     </Card>
