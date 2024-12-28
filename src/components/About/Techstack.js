@@ -1,68 +1,94 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiMysql,
+  SiPython,
+  SiAmazonaws,
+  SiApachespark,
+  SiApacheairflow,
+  SiDbt,
+  SiSnowflake,
+  SiApachehadoop,
+  SiGnubash,
+  SiTerraform,
+  SiDocker,
+  SiKubernetes,
+  SiPandas,
+  SiNumpy,
+  SiGit,
+  SiTableau,
+  SiPowerbi,
+  SiTensorflow,
+  SiPytorch,
+  SiScikitlearn,
+  SiR
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiApachespark />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiApacheairflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiDbt />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiSnowflake />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiApachehadoop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiGnubash />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiTerraform />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiPandas />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiNumpy />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowerbi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTensorflow />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPytorch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiR />
       </Col>
     </Row>
   );
