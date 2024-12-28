@@ -30,6 +30,9 @@ function Home2() {
               <br />
               <br />
               <br />
+              <br />
+              <br />
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar" style={{ marginTop: "60px" }}>

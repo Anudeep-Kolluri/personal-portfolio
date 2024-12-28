@@ -8,33 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            As a recent Master's graduate from <span className="purple">University of Texas at Arlington</span>, I am beginning my journey as a <span className="purple">Data Engineer</span> with foundational skills in <span className="purple">Cloud computing</span>, <span className="purple">Big Data</span>, <span className="purple">Data Analytics</span>, and <span className="purple">Machine Learning</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            My academic and project experiences have equipped me with the knowledge to <span className="purple">design data pipelines</span>, <span className="purple">perform data integration</span>, and <span className="purple">create business intelligence reports</span>. I am adept at addressing fundamental data challenges, contributing to the development of efficient data processing systems, and supporting data-driven decision-making processes.
+            <br />
+            <br />
+            Keen to apply my learning in a practical environment, I am enthusiastic about opportunities that allow me to expand my skills and contribute to impactful data engineering projects in an entry-level role.
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> <span className="purple">Playing Games</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> <span className="purple">Writing Tech Blogs</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> <span className="purple">Travelling</span>
             </li>
-          </ul>
+          </ul> */}
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Debug your mindset, compile your strengths, and execute with resilience!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Anudeep Kolluri</footer>
         </blockquote>
       </Card.Body>
     </Card>
