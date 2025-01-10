@@ -8,6 +8,7 @@ import s_rev from "../../Assets/Projects/spec_review.png"
 import m_ser from "../../Assets/Projects/milvus_search.png"
 import s_mar from "../../Assets/Projects/stock_market.jpeg"
 import c_vae from "../../Assets/Projects/vae.gif"
+import elt_d from "../../Assets/Projects/ELT_Data_Factory.png"
 
 
 
@@ -38,16 +39,18 @@ function Projects() {
             />
           </Col>
 
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={m_ser}
+              imgPath={elt_d}
               isBlog={false}
-              title="Semantic Search Engine"
-              description="A retrieval engine built using Milvus, designed to efficiently handle large-scale data and enable rapid, accurate searches across vast datasets. It leverages vector similarity search for applications such as recommendation systems, image recognition, and natural language processing."
-              ghLink="https://github.com/Anudeep-Kolluri/search-engine-using-milvus"
-              demoLink="https://retrieval-engine-milvus.streamlit.app/"
+              title="ELT using Azure Data Factory"
+              description="Scrape data from site using Azure Virtual Machines, inject the data in an ADLS2 container and then perform transformations using Azure Data Factory. Data Flow mapping and Azure spark pool were used for computations and Tableau for visualizations"
+              ghLink="https://github.com/abhi-2699/Data-Factory-Project"
+              demoLink="https://public.tableau.com/app/profile/anudeep.kolluri4281/viz/WillRobotsTakeMyJob_com/WillRobotsTakeMyJob"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -56,6 +59,17 @@ function Projects() {
               title="Face Generation using VAE"
               description="Built a Variational Autoencoder (VAE) from scratch to generate human faces based on CelebA dataset, leveraging a Tkinter GUI for dynamic interaction and visualization. The whole VAE is built on just 2 latent dimensions."
               ghLink="https://github.com/Anudeep-Kolluri/Variational-Autoencoders"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={m_ser}
+              isBlog={false}
+              title="Semantic Search Engine"
+              description="A retrieval engine built using Milvus, designed to efficiently handle large-scale data and enable rapid, accurate searches across vast datasets. It leverages vector similarity search for applications such as recommendation systems, image recognition, and natural language processing."
+              ghLink="https://github.com/Anudeep-Kolluri/search-engine-using-milvus"
+              demoLink="https://retrieval-engine-milvus.streamlit.app/"
             />
           </Col>
 
