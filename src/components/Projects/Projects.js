@@ -9,6 +9,7 @@ import m_ser from "../../Assets/Projects/milvus_search.png"
 import s_mar from "../../Assets/Projects/stock_market.jpeg"
 import c_vae from "../../Assets/Projects/vae.gif"
 import elt_d from "../../Assets/Projects/ELT_Data_Factory.png"
+import elt_f from "../../Assets/Projects/Flipkart-Project.png"
 
 
 
@@ -27,6 +28,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={yt_etl}
@@ -50,6 +52,17 @@ function Projects() {
               demoLink="https://public.tableau.com/app/profile/anudeep.kolluri4281/viz/WillRobotsTakeMyJob_com/WillRobotsTakeMyJob"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={elt_f}
+              isBlog={false}
+              title="ELT on E-Commerce Data"
+              description="Ingest data from Kaggle into ADLS2 using ADF then perform tranformations using Data Flow. Optimized data to be smaller and faster for query processing. Used dedicated server pools to process data in distributed fashion. #Pyspark #ADF #SQL #ADLS2 #DataEngineering"
+              ghLink="https://github.com/Anudeep-Kolluri/ELT-Flipkart"
+            />
+          </Col>
+
 
 
           <Col md={4} className="project-card">
