@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.94d61cb1.css",
+    "main.js": "/personal-portfolio/static/js/main.a9a635a2.js",
+    "static/js/415.4d6acbeb.chunk.js": "/personal-portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/personal-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ELT_Data_Factory.png": "/personal-portfolio/static/media/ELT_Data_Factory.5dc6d0269f9c0365f546.png",
+    "static/media/vae.gif": "/personal-portfolio/static/media/vae.e0ca2324da8f5d1a221d.gif",
+    "static/media/youtube_etl_dashboard.png": "/personal-portfolio/static/media/youtube_etl_dashboard.ce48fd313ac209d71877.png",
+    "static/media/Anudeep_Kolluri_Resume.pdf": "/personal-portfolio/static/media/Anudeep_Kolluri_Resume.1901f8e3d03e5b6a9075.pdf",
+    "static/media/logo.png": "/personal-portfolio/static/media/logo.24c27fe94086efe684ea.png",
+    "static/media/Flipkart-Project.png": "/personal-portfolio/static/media/Flipkart-Project.8017ef15261249a6a18c.png",
+    "static/media/home-main.svg": "/personal-portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/personal-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/spec_review.png": "/personal-portfolio/static/media/spec_review.3c0a372ac1ec45555a71.png",
+    "static/media/y_comb.webp": "/personal-portfolio/static/media/y_comb.39a0be0b2d725545c3f0.webp",
+    "static/media/milvus_search.png": "/personal-portfolio/static/media/milvus_search.7c935bb88ad5a7156866.png",
+    "static/media/home-bg.jpg": "/personal-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/stock_market.jpeg": "/personal-portfolio/static/media/stock_market.8f35df0f0f7f97272a8c.jpeg",
+    "static/media/avatar.svg": "/personal-portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/personal-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.94d61cb1.css.map": "/personal-portfolio/static/css/main.94d61cb1.css.map",
+    "main.a9a635a2.js.map": "/personal-portfolio/static/js/main.a9a635a2.js.map",
+    "415.4d6acbeb.chunk.js.map": "/personal-portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/personal-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94d61cb1.css",
+    "static/js/main.a9a635a2.js"
+  ]
+}
